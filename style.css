@@ -56,38 +56,45 @@ body {
 }
 
 .container h1 {
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: .5em;
-    color: var(--neon-green)
+    color: var(--neon-green);
+    padding-top: 2em;
 }
 
 .container p {
-    margin: 0em 2em;
     text-align: center;
+    margin: 0 1em;
 }
+
 .container {
     height: 375px;
     background-color: var(--dark-gray-blue);
     width: 600px;
-    margin: 220px auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 1.5em 0;
+    position: absolute;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .divider-img {
-    content: url(images/pattern-divider-desktop.svg)
+    content: url(images/pattern-divider-desktop.svg);
+    padding-bottom: 2em;
 }
 
 .icon-holder {
     border: 20px solid var(--neon-green);
     border-radius: 50%;
     position: absolute;
-    bottom: 295px;
+    top: 91%
 }
 
 .green-icon {
@@ -104,16 +111,37 @@ body {
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-    margin: 10em auto;
     color: var(--gray-blue);
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    left: 0;
 }
 
 .attribution a{
     text-decoration: none;
     color: var(--light-cyan);
+    
 }
 
 .attribution a:hover {
     color: var(--neon-green);
     text-shadow: 0px 0px 10px var(--neon-green);
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 90%;
+        height: 60vh;
+    }
+
+    .divider-img {
+        transform: scale(.66);
+        font-weight: 800;
+    }
+
+    .icon-holder {
+        top: 94%;
+    }
+        
 }
