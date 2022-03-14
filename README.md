@@ -15,17 +15,33 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution]()
+- Live Site URL: [Live Site](https://advice-generator1403.netlify.app/)
 
 ## My process
+
+- Laid out the basic HTML with a few div and classes for future use
+- Started the CSS with the basic layout
+- Wrote the javascript code
+- Worked on the rest of the CSS, including effects and media queries and the dynamic test
+- Testing and making sure its working properly on all screen sizes
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Advice Slip API
 
 ### What I learned
 
+- To fetch an API and use it in a real project
+- Getting a little better with Media queries
+- To use transform: scale to reduce elements in a mobile layout
+- Shadow can be used as a glow element
 
+### Useful resources
+
+- [Advice Slip API](https://api.adviceslip.com/) - The API essential to the challenge
+- [MDN](https://developer.mozilla.org/en-US/) - I guess it does not need explanation
+- [Oston Code Cypher Youtube Channel](https://www.youtube.com/c/OstonCodeCypher) - Helped me understand the fetch api code, I was stuck before finding it
