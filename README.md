@@ -15,7 +15,6 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution]()
 - Live Site URL: [Live Site](https://advice-generator1403.netlify.app/)
 
 ## My process
